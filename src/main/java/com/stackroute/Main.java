@@ -18,9 +18,9 @@ public class Main {
         Movie movie1=(Movie) context1.getBean("movie1");
         System.out.println(movie1.getActor());
 
-        Movie movie2=(Movie) context1.getBean("movie2");
-       System.out.println(movie2.getActor());
 
+
+        ((ClassPathXmlApplicationContext)context1).close();
 
     }
 }
