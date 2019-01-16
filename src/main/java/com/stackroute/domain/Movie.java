@@ -14,4 +14,6 @@ public class Movie {
     public Movie(Actor actor) {
         this.actor = actor;
     }
+
+    public Movie(){}
 }
